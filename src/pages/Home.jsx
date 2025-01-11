@@ -1,4 +1,3 @@
-import React from "react";
 import SideNav from "../SideNav.jsx";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";

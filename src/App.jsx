@@ -1,6 +1,4 @@
-import React from "react";
 import {Routes, Route, BrowserRouter} from 'react-router-dom'
-import SideNav from "./SideNav.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Settings from "./pages/Settings.jsx";
