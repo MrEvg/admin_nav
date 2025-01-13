@@ -9,12 +9,12 @@
 }
 .iconstyle {
     margin-top: 22px !important;
-    margin-left: 20px;
+    margin-left: 20px !important;
     color: aliceblue;
 }
 .iconstyleblack {
     margin-top: 22px !important;
-    margin-left: 20px;
+    margin-left: 20px !important;
 }
 .gradient {
     background: rgb(40, 34, 70) !important;

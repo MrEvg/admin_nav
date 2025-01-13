@@ -1,6 +1,7 @@
 import SideNav from "../components/SideNav.jsx";
 import Navbar from "../components/Navbar.jsx";
 import AccordionDash from "../components/AccordionDash.jsx";
+import BarChart from "../charts/BarChatr.jsx";
 import Box from "@mui/material/Box";
 import Grid from '@mui/material/Grid2';
 import Card from '@mui/material/Card';
@@ -110,7 +111,9 @@ export default function Home() {
             <Grid container spacing={2}>
               <Grid size={8}>
                 <Card sx={{height: 60 + "vh"}}>
-                  <CardContent></CardContent>
+                  <CardContent>
+                    <BarChart/>
+                  </CardContent>
                 </Card>
               </Grid>
               <Grid size={4}>
