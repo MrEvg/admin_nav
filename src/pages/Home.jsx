@@ -7,6 +7,7 @@ import Grid from '@mui/material/Grid2';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from "@mui/material/Typography";
+import CountUp from "react-countup";
 import {Stack} from "@mui/material";
 import "../Dash.css";
 import StorefrontIcon from '@mui/icons-material/Storefront';
@@ -38,7 +39,7 @@ export default function Home() {
                         component="div"
                         sx={{color: "#ffffff"}}
                       >
-                        $500.00
+                        $<CountUp delay={0.2} end={570} duration={0.7}/>.00
                       </Typography>
                       <Typography
                         gutterBottom variant="body2"
@@ -61,7 +62,7 @@ export default function Home() {
                         component="div"
                         sx={{color: "#ffffff"}}
                       >
-                        $900.00
+                        $<CountUp delay={0.2} end={930} duration={1.3}/>.00
                       </Typography>
                       <Typography
                         gutterBottom variant="body2"

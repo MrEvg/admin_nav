@@ -9,6 +9,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from "@mui/material/Typography";
 import {Stack} from "@mui/material";
+import CountUp from "react-countup";
 import "../Dash.css";
 
 export default function Home() {
@@ -42,7 +43,7 @@ export default function Home() {
                           component="div"
                           sx={{color: "#f0fcfc"}}
                         >
-                          24,630
+                          <CountUp delay={0.2} end={24630} duration={1.5}/>
                         </Typography>
                         <Typography
                           gutterBottom
@@ -72,7 +73,7 @@ export default function Home() {
                           component="div"
                           sx={{color: "#f0fcfc"}}
                         >
-                          24,630
+                          <CountUp delay={0.2} end={28450} duration={1.7}/>
                         </Typography>
                         <Typography
                           gutterBottom
@@ -102,7 +103,7 @@ export default function Home() {
                           component="div"
                           sx={{color: "#f0fcfc"}}
                         >
-                          24,630
+                          <CountUp delay={0.2} end={31210} duration={1.9}/>
                         </Typography>
                         <Typography
                           gutterBottom variant="body2"
@@ -131,7 +132,7 @@ export default function Home() {
                           component="div"
                           sx={{color: "#f0fcfc"}}
                         >
-                          24,630
+                          <CountUp delay={0.2} end={27390} duration={1.6}/>
                         </Typography>
                         <Typography
                           gutterBottom variant="body2"
